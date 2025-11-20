@@ -6,24 +6,26 @@ Gensyn Node Full Setup Guide (Linux/Mac VPS)
 # Login to your VPS
 
 ```bash
-sudo apt update
+ssh username@ip
 ```
 
 
-# Update packages
+# Pre-Requirements
+
+
+Install Python and Other Tools
+
+· For Linux/Wsl
 
 ```bash
 sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof 
 ```
 
-
-# Install Python for (Mac)
+· For Mac
 
 ```bash
 brew install python
-python3 --version
 ```
-
 
 Check Version
 
